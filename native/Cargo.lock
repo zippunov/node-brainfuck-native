@@ -1,0 +1,41 @@
+[root]
+name = "node-rbf"
+version = "0.1.0"
+dependencies = [
+ "bfck 0.1.0 (git+https://github.com/zippunov/bfck.git)",
+ "neon 0.1.11 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "bfck"
+version = "0.1.0"
+source = "git+https://github.com/zippunov/bfck.git#79251cef21745f6ecfdf96eb75eb4b545394f49d"
+
+[[package]]
+name = "cslice"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "gcc"
+version = "0.3.35"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "neon"
+version = "0.1.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "cslice 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "neon-sys 0.1.11 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "neon-sys"
+version = "0.1.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "cslice 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gcc 0.3.35 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+

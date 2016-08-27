@@ -1,0 +1,17 @@
+{
+  "name": "node-brainfuck-native",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Slava Zipp <zipp.pnl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.1.7"
+  },
+  "devDependencies": {
+    "jasmine": "2.4.1"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}

@@ -1,0 +1,13 @@
+[package]
+name = "node-rbf"
+version = "0.1.0"
+authors = ["Slava Zipp <zipp.pnl@gmail.com>"]
+license = "MIT"
+
+[lib]
+name = "node_rbf"
+crate-type = ["dylib"]
+
+[dependencies]
+neon = "0.1"
+bfck = { git = "https://github.com/zippunov/bfck.git" }
